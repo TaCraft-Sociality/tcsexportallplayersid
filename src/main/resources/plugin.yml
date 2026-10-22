@@ -1,0 +1,15 @@
+name: tcsexportallplayersid
+main: tcs.exportallplayersid.tcsexportallplayersid
+version: 1.0
+api-version: 1.21
+commands:
+  tcsexportallplayersid:
+    description: 玩家导出与敏感词管理命令
+    usage: /tcsexportallplayersid <export|reload>
+permissions:
+  tcsexportallplayersid.export:
+    description: 允许导出玩家列表
+    default: op
+  tcsexportallplayersid.reload:
+    description: 允许重新加载敏感词配置
+    default: op
